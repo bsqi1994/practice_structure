@@ -1,4 +1,4 @@
-package pers.xmr.practice.structure.stackandqueue;
+package pers.xmr.practice.structure.stack;
 
 /**
  * @author xmr

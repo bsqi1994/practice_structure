@@ -1,4 +1,4 @@
-package pers.xmr.practice.structure.stackandqueue;
+package pers.xmr.practice.structure.stack;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * @author xmr
  * @date 2020/3/30 20:31
- * @description
+ * @description 使用栈实现java中的进制转换
  */
 public class ConvertTest {
     public static void main(String[] args) {
