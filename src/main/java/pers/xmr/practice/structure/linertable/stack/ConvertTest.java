@@ -1,4 +1,4 @@
-package pers.xmr.practice.structure.stack;
+package pers.xmr.practice.structure.linertable.stack;
 
 import java.util.Deque;
 import java.util.LinkedList;

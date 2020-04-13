@@ -1,4 +1,4 @@
-package pers.xmr.practice.structure.queue;
+package pers.xmr.practice.structure.linertable.queue;
 
 /**
  * @author xmr
