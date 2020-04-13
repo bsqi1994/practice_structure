@@ -15,15 +15,15 @@ public class ArrayQueue implements Queue{
         Queue queue = new ArrayQueue();
         queue.dequeue(); // 在队列为长度为0的时候,尝试出队
         queue.enqueue("3"); // 数据入队
-        System.out.println(queue.getSize());
+        System.out.println("队列长度: " + queue.getSize());
         queue.enqueue("4");
         queue.enqueue("5");
         for (int i = 0; i < 100; i ++) {
             queue.enqueue(i); // 数据入队,用于检测数组扩容机制是否正常
         }
-        System.out.println(queue.dequeue());
-        System.out.println(queue.getSize());
-        System.out.println(queue.peek()); // 获取队列首端元素
+        System.out.println("队首元素出队: " + queue.dequeue());
+        System.out.println("队列长度: " + queue.getSize());
+        System.out.println("队列队首元素为:"  + queue.peek()); // 获取队列首端元素
 
     }
     public ArrayQueue() {
